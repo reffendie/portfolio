@@ -19,7 +19,7 @@ const Portfolio = () => {
         {/* Summary */}
         <section className="summary">
           <p>
-            Technical Program Manager with <strong>{yearsOfExperience}+ years</strong> delivering complex, cross-functional programs in fintech, AI, and enterprise systems.
+            Technical Program Manager with <strong>{yearsOfExperience}+ years</strong> delivering complex, cross-functional programs in Fintech, AI, and Enterprise Systems.
             Proven track record managing <strong>$100M+ programs</strong>, leading global teams of <strong>50+ members</strong>, and driving measurable business impact
             through strategic technical leadership. Expert at bridging business and engineering teams while orchestrating multiple high-stakes initiatives simultaneously.
           </p>
@@ -200,7 +200,7 @@ const Portfolio = () => {
             <section className="section target-role">
               <h2>Seeking</h2>
               <p>
-                <strong>Senior TPM roles at $225K+</strong> in tech companies where I can drive strategic
+                <strong>Senior TPM roles </strong> where I can drive strategic
                 technical initiatives, orchestrate complex cross-functional programs, and deliver
                 measurable business impact at scale.
               </p>
