@@ -81,14 +81,14 @@ const TechnicalExpertise = () => {
               <div className="cert-icon">🎓</div>
               <div className="cert-details">
                 <div className="cert-name">M.Sc. Database Development & Administration</div>
-                <div className="cert-org">Golden Gate University</div>
+                <div className="cert-org">Golden Gate University (2002)</div>
               </div>
             </div>
             <div className="cert-item">
               <div className="cert-icon">🎓</div>
               <div className="cert-details">
                 <div className="cert-name">B.A. Economics</div>
-                <div className="cert-org">Parahyangan Catholic University</div>
+                <div className="cert-org">Parahyangan Catholic University (2000)</div>
               </div>
             </div>
           </div>

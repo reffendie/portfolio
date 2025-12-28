@@ -114,13 +114,24 @@ const Portfolio = () => {
             <section className="section">
               <h2>Education & Certifications</h2>
               <div className="education-item">
-                <strong>M.Sc. Database Development & Administration</strong> — Golden Gate University
+                <div className="exp-header">
+                  <strong>M.Sc. Database Development & Administration</strong>
+                  <span className="year">2002</span>
+                </div>
+                <div className="company">Golden Gate University</div>
               </div>
               <div className="education-item">
-                <strong>B.A. Economics</strong> — Parahyangan Catholic University
+                <div className="exp-header">
+                  <strong>B.A. Economics</strong>
+                  <span className="year">2000</span>
+                </div>
+                <div className="company">Parahyangan Catholic University</div>
               </div>
               <div className="education-item">
-                <strong>AWS Certified Cloud Practitioner</strong>
+                <div className="exp-header">
+                  <strong>AWS Certified Cloud Practitioner</strong>
+                </div>
+                <div className="company">Amazon Web Services</div>
               </div>
             </section>
 
