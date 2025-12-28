@@ -17,8 +17,9 @@ test.describe('Portfolio Page', () => {
     await page.goto('/');
 
     const summary = page.locator('.summary');
+    const yearsOfExperience = new Date().getFullYear() - 2002;
     await expect(summary).toBeVisible();
-    await expect(summary).toContainText('22+ years');
+    await expect(summary).toContainText(`${yearsOfExperience}+ years`);
     await expect(summary).toContainText('$100M+ programs');
   });
 

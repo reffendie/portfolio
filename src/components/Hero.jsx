@@ -1,5 +1,5 @@
 import React from 'react'
-import './Hero.css'
+import '../styles/Hero.css'
 
 const Hero = () => {
   const yearsOfExperience = new Date().getFullYear() - 2002;

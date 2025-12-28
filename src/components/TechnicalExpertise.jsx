@@ -1,5 +1,5 @@
 import React from 'react'
-import './TechnicalExpertise.css'
+import '../styles/TechnicalExpertise.css'
 
 const expertise = {
   'Cloud & Infrastructure': {

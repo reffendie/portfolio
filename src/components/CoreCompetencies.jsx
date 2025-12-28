@@ -1,5 +1,5 @@
 import React from 'react'
-import './CoreCompetencies.css'
+import '../styles/CoreCompetencies.css'
 
 const competencies = [
   {

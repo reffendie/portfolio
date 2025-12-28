@@ -1,5 +1,5 @@
 import React from 'react'
-import './KeyHighlights.css'
+import '../styles/KeyHighlights.css'
 
 const highlights = [
   {

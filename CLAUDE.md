@@ -42,6 +42,14 @@ Tests are located in `tests/` directory and use Playwright with Chromium. Test c
 - CSS variables defined in `src/styles/index.css` for consistent theming
 - Two-column responsive layout in Portfolio component
 - No CSS framework - pure CSS with modern flexbox/grid
+- **Important**: When creating new CSS files, add them to `src/styles/` folder (not co-located with components)
+
+### File Movement Protocol
+When moving CSS files from `src/components/` to `src/styles/`:
+1. Update all import paths in component files (e.g., `import './Component.css'` → `import '../styles/Component.css'`)
+2. Run tests to verify no broken links: `npm test`
+3. Build the project to catch any import errors: `npm run build`
+4. Verify the dev server runs without errors: `npm run dev`
 
 ### Important Notes
 - Git repository: https://github.com/reffendie/portfolio

@@ -1,5 +1,5 @@
 import React from 'react'
-import './MajorPrograms.css'
+import '../styles/MajorPrograms.css'
 
 const programs = [
   {
