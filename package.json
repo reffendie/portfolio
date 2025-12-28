@@ -19,7 +19,7 @@
   "author": "Roy Effendie",
   "license": "ISC",
   "dependencies": {
-    "@vercel/analytics": "^1.4.0",
+    "@vercel/analytics": "^1.6.1",
     "@vitejs/plugin-react": "^4.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
