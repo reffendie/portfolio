@@ -1,0 +1,30 @@
+{
+  "name": "roy-effendie-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Roy Effendie - Senior Technical Program Manager",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "technical-program-manager"
+  ],
+  "author": "Roy Effendie",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^4.5.14"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}
