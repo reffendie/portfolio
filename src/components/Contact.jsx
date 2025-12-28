@@ -2,6 +2,8 @@ import React from 'react'
 import './Contact.css'
 
 const Contact = () => {
+  const yearsOfExperience = new Date().getFullYear() - 2002;
+
   return (
     <section className="contact">
       <div className="container">
@@ -47,7 +49,7 @@ const Contact = () => {
               <div className="value-text">Program Value</div>
             </div>
             <div className="value-item">
-              <div className="value-number">22+</div>
+              <div className="value-number">{yearsOfExperience}+</div>
               <div className="value-text">Years Experience</div>
             </div>
             <div className="value-item">

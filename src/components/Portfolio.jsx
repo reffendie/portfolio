@@ -2,6 +2,8 @@ import React from 'react'
 import './Portfolio.css'
 
 const Portfolio = () => {
+  const yearsOfExperience = new Date().getFullYear() - 2002;
+
   return (
     <div className="portfolio">
       <div className="container">
@@ -17,7 +19,7 @@ const Portfolio = () => {
         {/* Summary */}
         <section className="summary">
           <p>
-            Technical Program Manager with <strong>22+ years</strong> delivering complex, cross-functional programs in fintech, AI, and enterprise systems.
+            Technical Program Manager with <strong>{yearsOfExperience}+ years</strong> delivering complex, cross-functional programs in fintech, AI, and enterprise systems.
             Proven track record managing <strong>$100M+ programs</strong>, leading global teams of <strong>50+ members</strong>, and driving measurable business impact
             through strategic technical leadership. Expert at bridging business and engineering teams while orchestrating multiple high-stakes initiatives simultaneously.
           </p>

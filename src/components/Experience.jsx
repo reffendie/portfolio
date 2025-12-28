@@ -60,12 +60,14 @@ const experiences = [
 ]
 
 const Experience = () => {
+  const yearsOfExperience = new Date().getFullYear() - 2002;
+
   return (
     <section className="experience">
       <div className="container">
         <h2 className="section-title">Career Journey</h2>
         <p className="section-subtitle">
-          22+ years of progressive technical leadership
+          {yearsOfExperience}+ years of progressive technical leadership
         </p>
         <div className="timeline">
           {experiences.map((exp, index) => (

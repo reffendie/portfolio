@@ -2,6 +2,8 @@ import React from 'react'
 import './Hero.css'
 
 const Hero = () => {
+  const yearsOfExperience = new Date().getFullYear() - 2002;
+
   return (
     <section className="hero">
       <div className="container">
@@ -11,7 +13,7 @@ const Hero = () => {
             Roy Effendie
           </h1>
           <p className="hero-subtitle">
-            Driving strategic technical initiatives at scale. 22+ years delivering complex, cross-functional programs in fintech, AI, and enterprise systems.
+            Driving strategic technical initiatives at scale. {yearsOfExperience}+ years delivering complex, cross-functional programs in fintech, AI, and enterprise systems.
           </p>
           <div className="hero-stats">
             <div className="stat">
@@ -23,7 +25,7 @@ const Hero = () => {
               <span className="stat-label">Team Leadership</span>
             </div>
             <div className="stat">
-              <span className="stat-value">22+</span>
+              <span className="stat-value">{yearsOfExperience}+</span>
               <span className="stat-label">Years Experience</span>
             </div>
           </div>
