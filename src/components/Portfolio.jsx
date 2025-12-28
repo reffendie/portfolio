@@ -206,7 +206,7 @@ const Portfolio = () => {
               </p>
               <div className="cta-buttons">
                 <a href="mailto:reffendie@outlook.com" className="btn-primary">Email Me</a>
-                <a href="https://www.linkedin.com/in/reffendie/" target="_blank" rel="noopener noreferrer" className="btn-secondary">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/reffendie/" rel="noopener noreferrer" className="btn-secondary">LinkedIn</a>
               </div>
             </section>
 
